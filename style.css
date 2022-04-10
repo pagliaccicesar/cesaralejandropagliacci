@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:ital,wght@1,300&family=Palanquin:wght@300&family=Roboto+Condensed:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'roboto, Condensed', sans-serif;
+    line-height: 180%;
+    color: #444;
+    text-align: center;
+}
+
+/*.social {
+    background-image: url(imagenes/wp.png);
+}*/
+.foto1 {
+    background-image: url(imagenes/foto300.jpg);
+    min-height: 100%;
+}
+.foto2 {
+    background-image: url(imagenes/foto2.jpg);
+    min-height: 60%;
+}
+.foto3 {
+    background-image: url(imagenes/foto3.png);
+    min-height: 40%;
+}
+.foto30 {
+    background-image: url(imagenes/foto30.jpg);
+    min-height: 100%;
+}
+.foto1, .foto2, .foto3, .foto30 {
+    position: relative;
+    opacity: 0.75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.letrero {
+    color: #fbfbfb;
+    font-size: 350%;
+    top: 50%;
+}
+.letrero2 {
+    color: #c73256;
+    font-size: 300%;
+    top: 57%;
+}
+.letrero3{
+    color: #d1345b;
+    font-size: 350%;
+    top: 64%;
+}
+.letrero4 {
+    color: rgb(3, 48, 3);
+    font-size: 250%;
+    top: 45%;
+    text-transform: none !important;
+}
+.letrero, .letrero2, .letrero3, .letrero4 {
+    position: absolute;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+}
+section{
+    padding: 50px 80px;
+}
+.dark {
+    background-color: #444;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .letrero{
+        font-size: 300%;
+    }
+    .letrero2 {
+        font-size: 250%;
+    }
+    .letrero3 {
+        font-size: 200%;
+    }
+}
+
+.social {
+    background-image: url(imagenes/wp.png);
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 18px; /* Establecemos la barra en la izquierda */
+	top: 660px; /* Bajamos la barra 50px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    border-radius: 30%;
+    padding: 17px 5px;
+}
+
+.social ul {
+    list-style: none;
+}
+.social:hover {
+    cursor: pointer;
+}
+.socialul li a {
+    display:block;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+@media (max-width: 480px) {
+    .social {
+    width: 5%;
+    height:auto;
+    padding: 5px 5px;
+    right: 0;
+  } }
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+}
