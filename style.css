@@ -9,9 +9,6 @@ body, html {
     text-align: center;
 }
 
-/*.social {
-    background-image: url(imagenes/wp.png);
-}*/
 .foto1 {
     background-image: url(imagenes/foto300.jpg);
     min-height: 100%;
@@ -83,32 +80,6 @@ section{
         font-size: 170%;
     }
 }
-
-.social {
-    background-image: url(imagenes/wp.png);
-	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-	right: 18px; /* Establecemos la barra en la izquierda */
-	top: 660px; /* Bajamos la barra 50px de arriba a abajo */
-	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
-    border-radius: 30%;
-    padding: 17px 5px;
-}
-
-.social ul {
-    list-style: none;
-}
-
-/*.icono {
-    background-image: url(./imagenes/wp.png)
-}*/
-
-.icono .social ul li {
-    display: block;
-    cursor: pointer;
-    text-decoration: none;
-    border-radius: 20%;
-}
-
 
 
 
