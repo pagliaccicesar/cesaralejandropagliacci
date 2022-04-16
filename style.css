@@ -71,25 +71,16 @@ section{
 }
 @media (max-width: 768px) {
     .letrero{
-        font-size: 100%;
+        font-size: 140%;
     }
     .letrero2 {
-        font-size: 150%;
+        font-size: 120%;
     }
     .letrero3 {
-        font-size: 170%;
+        font-size: 130%;
     }
 }
 
-
-
-@media (max-width: 480px) {
-    .social {
-    width: 5%;
-    height:auto;
-    padding: 5px 5px;
-    right: 0;
-  } }
 
 footer {
     background-color: #444;
