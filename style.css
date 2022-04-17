@@ -63,7 +63,7 @@ body, html {
     text-transform: uppercase;
     letter-spacing: 8px;
     text-shadow: 0 0 10px #000;}
-section{
+section{    
     padding: 50px 80px;}
 .dark {
     background-color: #444;
@@ -79,21 +79,15 @@ section{
 	-o-transition:all 800ms ease;
 	transition:all 800ms ease;}
 
-@media (max-width: 1280px) {
-    .web1, .web2, .web3 {
-        width: 120%;
-        height: auto;        
-    }
-}
-@media (max-width: 1280px) {
+@media (max-width: 1000px) {
     #carrusel {
-        flex-direction: column;
-        
-        align-content: center;
-        width: 100%;
-    
-        height: auto;
-    }}
+        flex-direction: column;       
+        align-content: center;}}
+
+@media (max-width: 1000px) {
+    .web1, .web2, .web3 {
+        width: 100%;   
+        height: auto;}}
 
 @media (max-width: 768px) {
     .letrero{
