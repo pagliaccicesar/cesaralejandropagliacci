@@ -79,14 +79,12 @@ section{
 	-o-transition:all 800ms ease;
 	transition:all 800ms ease;}
 
-/*@media (max-width: 1280px) {
+@media (max-width: 1280px) {
     .web1, .web2, .web3 {
         width: 120%;
-        justify-content: space-evenly;
-        height: auto;
-        flex-direction: column;
+        height: auto;        
     }
-}*/
+}
 @media (max-width: 1280px) {
     #carrusel {
         flex-direction: column;
