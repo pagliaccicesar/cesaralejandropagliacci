@@ -86,12 +86,13 @@ section{
         flex-direction: column;  
         align-content: center;}}
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
     .web1, .web2, .web3 {
        
         padding-block-start: 35px;
-        
-        width: 200%;   
+        margin-right: 150px;
+        margin-left: 1px;
+        width: 250%;   
         height: auto;}}
 
 @media (max-width: 768px) {
