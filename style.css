@@ -87,11 +87,8 @@ section{
         align-content: center;}}
 
 @media (max-width: 700px) {
-    .web1, .web2, .web3 {
-       
-        padding-block-start: 35px;
-        /*margin-right: 150px;
-        margin-left: 1px;*/
+    .web1, .web2, .web3 {       
+        padding-block-start: 35px;        
         width: 250%;   
         height: auto;}}
 
