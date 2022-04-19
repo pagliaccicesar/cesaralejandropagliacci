@@ -1,7 +1,7 @@
 .social {
     position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     right: 17px; /* Establecemos el icono en la derecha */
-    top: 645px; /* Bajamos la barra 645px de arriba a abajo */
+    top: 615px; /* Bajamos la barra 645px de arriba a abajo */
     border-radius: 30%;    
     cursor: pointer;  
     z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
@@ -24,17 +24,16 @@
 @media (max-width: 720px) {
     .social {
     right: 11px;
-    top: 560px; /*550*/
-    
+    top: 560px; /*550*/    
   } }
 
-  .correo {
-    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-    right: 17px; /* Establecemos el icono en la derecha */
-    top: 580px; /* Bajamos la barra 645px de arriba a abajo */
+.correo {
+    position: fixed; 
+    right: 17px; 
+    top: 560px; 
     border-radius: 30%;    
     cursor: pointer;  
-    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    z-index: 2000; 
 }
 
 .correo ul {
@@ -49,8 +48,8 @@
     border-radius: 35%;
     text-decoration: none;}
 
-.correo ul li .mail {background:#3b5998; background-image: url(./imagenes/hotmail.png);} /* Establecemos los colores de cada red social, aprovechando su class */
-    
+.correo ul li .mail {background:#3b5998; background-image: url(./imagenes/hotmail.png);} 
+
 @media (max-width: 720px) {
     .correo {
     right: 11px;
