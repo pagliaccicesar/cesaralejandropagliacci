@@ -24,7 +24,7 @@
 @media (max-width: 720px) {
     .social {
     right: 11px;
-    top: 580px; /*550*/
+    top: 560px; /*550*/
     
   } }
 
@@ -54,6 +54,6 @@
 @media (max-width: 720px) {
     .correo {
     right: 11px;
-    top: 520px; /*550*/
+    top: 500px; 
     
   } }
