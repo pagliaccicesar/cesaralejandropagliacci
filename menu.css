@@ -24,6 +24,36 @@
 @media (max-width: 720px) {
     .social {
     right: 11px;
-    top: 590px; /*550*/
+    top: 580px; /*550*/
+    
+  } }
+
+  .correo {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right: 17px; /* Establecemos el icono en la derecha */
+    top: 580px; /* Bajamos la barra 645px de arriba a abajo */
+    border-radius: 30%;    
+    cursor: pointer;  
+    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.correo ul {
+    list-style: none;
+}
+
+.correo ul li a {
+    display:block;
+    color:#fff;
+    background: #000;
+    padding: 25px 25px;
+    border-radius: 35%;
+    text-decoration: none;}
+
+.correo ul li .mail {background:#3b5998; background-image: url(./imagenes/hotmail.png);} /* Establecemos los colores de cada red social, aprovechando su class */
+    
+@media (max-width: 720px) {
+    .correo {
+    right: 11px;
+    top: 520px; /*550*/
     
   } }
