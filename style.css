@@ -90,8 +90,8 @@ section{
     .web1, .web2, .web3 {
        
         padding-block-start: 35px;
-        margin-right: 150px;
-        margin-left: 1px;
+        /*margin-right: 150px;
+        margin-left: 1px;*/
         width: 250%;   
         height: auto;}}
 
