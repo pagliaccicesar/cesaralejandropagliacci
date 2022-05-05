@@ -21,7 +21,7 @@
 
 .social ul li .icono {background:#3b5998; background-image: url(./imagenes/wp.png);} /* Establecemos los colores de cada red social, aprovechando su class */
     
-@media (max-width: 720px) {
+@media (max-width: 1400px) {
     .social {
     right: 11px;
     top: 560px; /*550*/    
@@ -50,7 +50,7 @@
 
 .correo ul li .mail {background:#3b5998; background-image: url(./imagenes/hotmail.png);} 
 
-@media (max-width: 720px) {
+@media (max-width: 1400px) {
     .correo {
     right: 11px;
     top: 500px; 

@@ -3,7 +3,8 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: 'roboto, Condensed', sans-serif;
+    /*font-family: 'roboto, Condensed', sans-serif;*/
+    font-family: 'arimo, Condensed' , sans-serif;
     line-height: 180%;
     color: #444;
     text-align: center;
