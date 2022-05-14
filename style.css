@@ -45,9 +45,8 @@ body, html {
     font-size: 350%;
     top: 50%;
 }
-.letrero2 {
-    color: red;
-    /*color: #0ad1f9;*/
+.letrero2 {    
+    color: #0ad1f9;
     font-size: 300%;
     top: 57%;}
 .letrero3{
